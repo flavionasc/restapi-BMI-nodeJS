@@ -26,8 +26,8 @@ var BMIService = {
         
 		if(typeof(weight) === 'number' && typeof(height) === 'number') {
     
-            //var bmi = weight / (height * height);
-            var bmi = 70 / (1.71 * 1.71);
+            var bmi = weight / (height * height);
+          
            
     
              result[0]=bmi.toFixed(2);
